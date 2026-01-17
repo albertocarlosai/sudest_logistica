@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "servicios": "Services",
+    "beneficios": "Benefits",
+    "contacto": "Contact"
+  },
+  "hero": {
+    "title": "SUDEST LOGÍSTICA",
+    "subtitle": "Comprehensive transport and logistics solutions",
+    "description": "Specialists in loading, unloading and storage of goods with 24/7 surveillance in Riudarenes, Girona. Over 10 years of experience guaranteeing the security of your goods.",
+    "buttonServices": "Our Services",
+    "buttonContact": "Contact Us"
+  },
+  "servicios": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions for all your logistics needs in Riudarenes and throughout Spain",
+    "items": {
+      "camiones": {
+        "title": "Truck Rental",
+        "description": "We offer truck rental services for the transport of your goods. Modern fleet and professional drivers."
+      },
+      "carga": {
+        "title": "Loading and Unloading",
+        "description": "Professional loading and unloading service for trucks. Specialized personnel and adequate equipment to guarantee the security of your goods."
+      },
+      "almacenamiento": {
+        "title": "Storage",
+        "description": "Secure storage of goods in our facilities. Spacious and organized spaces for all types of products."
+      },
+      "vigilancia": {
+        "title": "24/7 Surveillance",
+        "description": "Our facilities are monitored 24 hours a day, 7 days a week, guaranteeing maximum security for your goods."
+      }
+    }
+  },
+  "beneficios": {
+    "title": "Why choose SUDEST LOGÍSTICA?",
+    "subtitle": "Committed to excellence in every service we offer",
+    "items": {
+      "experiencia": {
+        "title": "Over 10 years of experience",
+        "description": "Extensive track record in the logistics sector guaranteeing quality and reliable services."
+      },
+      "vigilancia": {
+        "title": "24/7 Surveillance",
+        "description": "Our facilities are protected 24 hours a day, every day of the year."
+      },
+      "flota": {
+        "title": "Modern fleet",
+        "description": "Updated trucks and vehicles to guarantee the secure transport of your goods."
+      },
+      "personal": {
+        "title": "Specialized personnel",
+        "description": "Professional team with continuous training in logistics and goods handling."
+      },
+      "ubicacion": {
+        "title": "Strategic location",
+        "description": "Located in Riudarenes, Girona, with easy access to the main communication routes."
+      },
+      "servicio": {
+        "title": "Personalized service",
+        "description": "Attention adapted to the specific needs of each client and type of goods."
+      }
+    }
+  },
+  "contacto": {
+    "title": "Contact",
+    "subtitle": "We are here to help you with all your logistics needs",
+    "infoTitle": "Contact Information",
+    "direccion": "Address",
+    "direccionValue": "Av. Tramuntana 15<br />Riudarenes, Girona, Spain",
+    "telefono": "Phone",
+    "telefonoValue": "Contact us for more information",
+    "horario": "Schedule",
+    "horarioValue": "Monday - Friday: 8:00 - 18:00<br />Saturday: 9:00 - 13:00",
+    "formTitle": "Send us a Message",
+    "nombre": "Name",
+    "nombrePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "mensaje": "Message",
+    "mensajePlaceholder": "Your message...",
+    "enviar": "Send Message",
+    "success": "Message sent! We will contact you soon.",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappDescription": "Talk to us directly"
+  },
+  "footer": {
+    "description": "Comprehensive transport and logistics solutions with over 10 years of experience in Riudarenes, Girona. Your trust, our responsibility.",
+    "enlaces": "Links",
+    "contacto": "Contact",
+    "vigilancia": "24/7 Surveillance",
+    "copyright": "All rights reserved.",
+    "location": "Transport and logistics in Riudarenes, Girona"
+  }
+}

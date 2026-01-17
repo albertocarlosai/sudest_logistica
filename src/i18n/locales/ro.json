@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "inicio": "Acasă",
+    "servicios": "Servicii",
+    "beneficios": "Beneficii",
+    "contacto": "Contact"
+  },
+  "hero": {
+    "title": "SUDEST LOGÍSTICA",
+    "subtitle": "Soluții complete de transport și logistică",
+    "description": "Specialiști în încărcare, descărcare și depozitare de mărfuri cu supraveghere 24/7 în Riudarenes, Girona. Peste 10 ani de experiență garantând securitatea mărfurilor dumneavoastră.",
+    "buttonServices": "Serviciile Noastre",
+    "buttonContact": "Contactați-ne"
+  },
+  "servicios": {
+    "title": "Serviciile Noastre",
+    "subtitle": "Soluții complete pentru toate nevoile dvs. logistice în Riudarenes și în toată Spania",
+    "items": {
+      "camiones": {
+        "title": "Închiriere Camioane",
+        "description": "Oferim servicii de închiriere camioane pentru transportul mărfurilor dvs. Flotă modernă și șoferi profesioniști."
+      },
+      "carga": {
+        "title": "Încărcare și Descărcare",
+        "description": "Serviciu profesional de încărcare și descărcare camioane. Personal specializat și echipament adecvat pentru a garanta securitatea mărfurilor dvs."
+      },
+      "almacenamiento": {
+        "title": "Depozitare",
+        "description": "Depozitare sigură de mărfuri în instalațiile noastre. Spații largi și organizate pentru toate tipurile de produse."
+      },
+      "vigilancia": {
+        "title": "Supraveghere 24/7",
+        "description": "Instalațiile noastre sunt supravegheate 24 de ore pe zi, 7 zile pe săptămână, garantând securitatea maximă pentru mărfurile dvs."
+      }
+    }
+  },
+  "beneficios": {
+    "title": "De ce să alegeți SUDEST LOGÍSTICA?",
+    "subtitle": "Angajați în excelență în fiecare serviciu pe care îl oferim",
+    "items": {
+      "experiencia": {
+        "title": "Peste 10 ani de experiență",
+        "description": "Amplă experiență în sectorul logistic garantând servicii de calitate și încredere."
+      },
+      "vigilancia": {
+        "title": "Supraveghere 24/7",
+        "description": "Instalațiile noastre sunt protejate 24 de ore pe zi, în fiecare zi a anului."
+      },
+      "flota": {
+        "title": "Flotă modernă",
+        "description": "Camioane și vehicule actualizate pentru a garanta transportul sigur al mărfurilor dvs."
+      },
+      "personal": {
+        "title": "Personal specializat",
+        "description": "Echipă profesională cu formare continuă în logistică și manipulare mărfuri."
+      },
+      "ubicacion": {
+        "title": "Locație strategică",
+        "description": "Situați în Riudarenes, Girona, cu acces ușor la principalele rute de comunicare."
+      },
+      "servicio": {
+        "title": "Serviciu personalizat",
+        "description": "Atenție adaptată la nevoile specifice ale fiecărui client și tip de marfă."
+      }
+    }
+  },
+  "contacto": {
+    "title": "Contact",
+    "subtitle": "Suntem aici pentru a vă ajuta cu toate nevoile dvs. logistice",
+    "infoTitle": "Informații de Contact",
+    "direccion": "Adresă",
+    "direccionValue": "Av. Tramuntana 15<br />Riudarenes, Girona, Spania",
+    "telefono": "Telefon",
+    "telefonoValue": "Contactați-ne pentru mai multe informații",
+    "horario": "Program",
+    "horarioValue": "Luni - Vineri: 8:00 - 18:00<br />Sâmbătă: 9:00 - 13:00",
+    "formTitle": "Trimiteți-ne un Mesaj",
+    "nombre": "Nume",
+    "nombrePlaceholder": "Numele dvs.",
+    "email": "Email",
+    "emailPlaceholder": "dvs@email.com",
+    "mensaje": "Mesaj",
+    "mensajePlaceholder": "Mesajul dvs...",
+    "enviar": "Trimite Mesaj",
+    "success": "Mesaj trimis! Vă vom contacta în curând.",
+    "whatsapp": "Vorbește pe WhatsApp",
+    "whatsappDescription": "Vorbește cu noi direct"
+  },
+  "footer": {
+    "description": "Soluții complete de transport și logistică cu peste 10 ani de experiență în Riudarenes, Girona. Încrederea dumneavoastră, responsabilitatea noastră.",
+    "enlaces": "Link-uri",
+    "contacto": "Contact",
+    "vigilancia": "Supraveghere 24/7",
+    "copyright": "Toate drepturile rezervate.",
+    "location": "Transport și logistică în Riudarenes, Girona"
+  }
+}

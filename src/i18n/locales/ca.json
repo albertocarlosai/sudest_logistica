@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "inicio": "Inici",
+    "servicios": "Serveis",
+    "beneficios": "Beneficis",
+    "contacto": "Contacte"
+  },
+  "hero": {
+    "title": "SUDEST LOGÍSTICA",
+    "subtitle": "Solucions integrals de transport i logística",
+    "description": "Especialistes en càrrega, descàrrega i emmagatzematge de mercaderia amb vigilància 24/7 a Riudarenes, Girona. Més de 10 anys d'experiència garantint la seguretat de la teva mercaderia.",
+    "buttonServices": "Els Nostres Serveis",
+    "buttonContact": "Contactar"
+  },
+  "servicios": {
+    "title": "Els Nostres Serveis",
+    "subtitle": "Solucions completes per a totes les seves necessitats logístiques a Riudarenes i tota Espanya",
+    "items": {
+      "camiones": {
+        "title": "Contractació de Camions",
+        "description": "Oferim serveis de contractació de camions per al transport de la seva mercaderia. Flota moderna i conductors professionals."
+      },
+      "carga": {
+        "title": "Càrrega i Descàrrega",
+        "description": "Servei professional de càrrega i descàrrega de camions. Personal especialitzat i equipament adequat per garantir la seguretat de la seva mercaderia."
+      },
+      "almacenamiento": {
+        "title": "Emmagatzematge",
+        "description": "Emmagatzematge segur de mercaderia a les nostres instal·lacions. Espais amplis i organitzats per a tots els tipus de productes."
+      },
+      "vigilancia": {
+        "title": "Vigilància 24/7",
+        "description": "Les nostres instal·lacions estan vigilades les 24 hores del dia, els 7 dies de la setmana, garantint la màxima seguretat per a la seva mercaderia."
+      }
+    }
+  },
+  "beneficios": {
+    "title": "Per què triar SUDEST LOGÍSTICA?",
+    "subtitle": "Compromesos amb l'excel·lència en cada servei que oferim",
+    "items": {
+      "experiencia": {
+        "title": "Més de 10 anys d'experiència",
+        "description": "Amplia trajectòria en el sector logístic garantint serveis de qualitat i confiança."
+      },
+      "vigilancia": {
+        "title": "Vigilància 24/7",
+        "description": "Les nostres instal·lacions estan protegides les 24 hores del dia, tots els dies de l'any."
+      },
+      "flota": {
+        "title": "Flota moderna",
+        "description": "Camions i vehicles actualitzats per garantir el transport segur de la seva mercaderia."
+      },
+      "personal": {
+        "title": "Personal especialitzat",
+        "description": "Equip professional amb formació contínua en logística i manipulació de mercaderies."
+      },
+      "ubicacion": {
+        "title": "Ubicació estratègica",
+        "description": "Situats a Riudarenes, Girona, amb fàcil accés a les principals vies de comunicació."
+      },
+      "servicio": {
+        "title": "Servei personalitzat",
+        "description": "Atenció adaptada a les necessitats específiques de cada client i tipus de mercaderia."
+      }
+    }
+  },
+  "contacto": {
+    "title": "Contacte",
+    "subtitle": "Estem aquí per ajudar-te amb totes les teves necessitats logístiques",
+    "infoTitle": "Informació de Contacte",
+    "direccion": "Direcció",
+    "direccionValue": "Av. Tramuntana 15<br />Riudarenes, Girona, Espanya",
+    "telefono": "Telèfon",
+    "telefonoValue": "Contacta amb nosaltres per a més informació",
+    "horario": "Horari",
+    "horarioValue": "Dilluns - Divendres: 8:00 - 18:00<br />Dissabtes: 9:00 - 13:00",
+    "formTitle": "Envia'ns un Missatge",
+    "nombre": "Nom",
+    "nombrePlaceholder": "El teu nom",
+    "email": "Correu electrònic",
+    "emailPlaceholder": "el_teu@email.com",
+    "mensaje": "Missatge",
+    "mensajePlaceholder": "El teu missatge...",
+    "enviar": "Enviar Missatge",
+    "success": "Missatge enviat! Ens posarem en contacte amb tu aviat.",
+    "whatsapp": "Parla per WhatsApp",
+    "whatsappDescription": "Xateja amb nosaltres directament"
+  },
+  "footer": {
+    "description": "Solucions integrals de transport i logística amb més de 10 anys d'experiència a Riudarenes, Girona. La teva confiança, la nostra responsabilitat.",
+    "enlaces": "Enllaços",
+    "contacto": "Contacte",
+    "vigilancia": "Vigilància 24/7",
+    "copyright": "Tots els drets reservats.",
+    "location": "Transport i logística a Riudarenes, Girona"
+  }
+}
