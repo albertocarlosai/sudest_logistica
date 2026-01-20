@@ -10,7 +10,6 @@ function Contacto() {
   const sectionRef = useRef(null)
   const titleRef = useRef(null)
   const subtitleRef = useRef(null)
-  const formRef = useRef(null)
   const infoRef = useRef(null)
 
   useEffect(() => {
@@ -25,14 +24,6 @@ function Contacto() {
     }
     if (infoRef.current?.children) {
       Array.from(infoRef.current.children).forEach(child => {
-        if (child instanceof HTMLElement) {
-          child.style.opacity = '1'
-          child.style.visibility = 'visible'
-        }
-      })
-    }
-    if (formRef.current?.children) {
-      Array.from(formRef.current.children).forEach(child => {
         if (child instanceof HTMLElement) {
           child.style.opacity = '1'
           child.style.visibility = 'visible'
@@ -71,12 +62,14 @@ function Contacto() {
       })
     }
 
-    // Animación del formulario e información - solo posición
+    // Animación de la información - solo posición
     if (infoRef.current?.children) {
       gsap.fromTo(Array.from(infoRef.current.children), {
-        x: -50
+        y: 50,
+        opacity: 0
       }, {
-        x: 0,
+        y: 0,
+        opacity: 1,
         duration: 0.8,
         stagger: 0.15,
         scrollTrigger: {
@@ -87,39 +80,8 @@ function Contacto() {
         immediateRender: false
       })
     }
-
-    if (formRef.current?.children) {
-      gsap.fromTo(Array.from(formRef.current.children), {
-        x: 50
-      }, {
-        x: 0,
-        duration: 0.8,
-        stagger: 0.1,
-        scrollTrigger: {
-          trigger: formRef.current,
-          start: 'top 75%',
-          toggleActions: 'play none none none'
-        },
-        immediateRender: false
-      })
-    }
   }, [])
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Animación de éxito
-    const button = e.target.querySelector('button[type="submit"]')
-    gsap.to(button, {
-      scale: 0.95,
-      duration: 0.1,
-      yoyo: true,
-      repeat: 1,
-      ease: 'power2.inOut'
-    })
-    
-    // Aquí puedes agregar la lógica de envío del formulario
-    alert(t('contacto.success'))
-  }
 
   return (
     <section 
@@ -157,12 +119,12 @@ function Contacto() {
           </div>
 
           <div className="bg-white/10 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 border border-white/20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="max-w-2xl mx-auto">
               <div 
                 ref={infoRef}
                 style={{ opacity: 1, visibility: 'visible' }}
               >
-                <h3 className="text-2xl font-bold mb-6 text-white">
+                <h3 className="text-2xl font-bold mb-6 text-white text-center">
                   {t('contacto.infoTitle')}
                 </h3>
                 
@@ -209,7 +171,7 @@ function Contacto() {
                   {/* Botón de WhatsApp */}
                   <div className="pt-4">
                     <a
-                      href="https://wa.me/34XXXXXXXXX?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios%20logísticos"
+                      href={`https://wa.me/34600119638?text=${encodeURIComponent(t('contacto.whatsappMessage'))}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group flex items-center justify-center space-x-3 w-full bg-[#25D366] hover:bg-[#20BA5A] text-white px-6 py-4 rounded-lg font-semibold text-base transition-all duration-300 hover:shadow-2xl hover:scale-105"
@@ -222,63 +184,6 @@ function Contacto() {
                     <p className="text-center text-gray-300 text-sm mt-2">{t('contacto.whatsappDescription')}</p>
                   </div>
                 </div>
-              </div>
-
-              <div 
-                ref={formRef}
-                style={{ opacity: 1, visibility: 'visible' }}
-              >
-                <h3 className="text-2xl font-bold mb-6 text-white">
-                  {t('contacto.formTitle')}
-                </h3>
-                <form onSubmit={handleSubmit} className="space-y-5">
-                  <div>
-                    <label htmlFor="nombre" className="block text-sm font-semibold text-gray-200 mb-2">
-                      {t('contacto.nombre')}
-                    </label>
-                    <input
-                      type="text"
-                      id="nombre"
-                      name="nombre"
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-[#F7961D] focus:border-[#F7961D] text-white placeholder-gray-400 transition-all"
-                      placeholder={t('contacto.nombrePlaceholder')}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-gray-200 mb-2">
-                      {t('contacto.email')}
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-[#F7961D] focus:border-[#F7961D] text-white placeholder-gray-400 transition-all"
-                      placeholder={t('contacto.emailPlaceholder')}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="mensaje" className="block text-sm font-semibold text-gray-200 mb-2">
-                      {t('contacto.mensaje')}
-                    </label>
-                    <textarea
-                      id="mensaje"
-                      name="mensaje"
-                      rows="5"
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-[#F7961D] focus:border-[#F7961D] text-white placeholder-gray-400 transition-all resize-none"
-                      placeholder={t('contacto.mensajePlaceholder')}
-                      required
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    className="group relative w-full bg-gradient-to-r from-[#B0161F] to-[#F7961D] text-white px-8 py-4 rounded-lg font-semibold text-base overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
-                  >
-                    <span className="relative z-10">{t('contacto.enviar')}</span>
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#F7961D] to-[#B0161F] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  </button>
-                </form>
               </div>
             </div>
           </div>
